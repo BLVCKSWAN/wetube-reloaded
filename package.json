@@ -7,7 +7,7 @@
     "url": "git+https://github.com/BLVCKSWAN/wetube-reloaded.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "Blvck Swan",
   "license": "MIT",
@@ -17,6 +17,7 @@
   "homepage": "https://github.com/BLVCKSWAN/wetube-reloaded#readme",
   "dependencies": {
     "express": "^4.17.2",
+    "mongoose": "^6.1.4",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
